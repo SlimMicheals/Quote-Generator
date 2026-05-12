@@ -4,7 +4,7 @@ const authorText = document.getElementById("author");
 
 async function getQuote() {
   try {
-    const response = await fetch("http://127.0.0.1:3000/");
+    const response = await fetch("http://t10mzmma1mkh5ojhqlitk4h7.178.105.39.91.sslip.io/");
     const data = await response.text();
 
     const [quote, author] = data.split(" -");
